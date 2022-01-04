@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="assets/iconlogo.png" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <!-- ./dart-sass/sass sass/style.scss css/style.css --watch  -->
+
+    <!-- <div class="load-container">
+      <div class="anim-bloc">
+        <div class="bloc-txt">
+          <h2>Busatta</h2>
+        </div>
+          <div class="loader_circle"></div>
+      </div>
+    </div> -->
+
+    <div class="overlay">
+        <div class="exit" href="#">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+      <div class="overlay_container">
+        <nav>
+          <ul class="main-menu">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Work</a></li>
+            <li><a href="">Contact</a></li>
+        </nav>
+
+        <div class="header-nav-footer">
+          <ul class="social-links">
+              <li><a href="#">Github</a></li>
+              <li><a href="#">Linkedlin</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><span>Inspired by</span> <a href="https://www.neuebel.com" target="_blank" >Neuebel</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <header>
+      <div class="headbar">
+        <div class="hd_left">
+          <div class="hdl_contain">
+            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8"><circle id="Ellipse_2" data-name="Ellipse 2" cx="4" cy="4" r="4" transform="translate(0 8) rotate(-90)"/><script xmlns=""/></svg>
+              <p class="copyright">
+                2021 - 2022 &copy
+              </p>
+          </div>
+        </div>
+
+        
+        <div class="hd_center">
+          <div class="dark_mode_btn">
+            <a href=""><i class="fa-regular fa-moon"></i></a>
+          </div>
+          <div class="logo">
+            <a class="logo_text" href="index.html">
+                <h1>
+                  <span>TB</span>
+                </h1>
+            </a>
+          </div>
+          
+          <div class="menu_btn">
+            <a href="#">
+              <!-- <i class="fa-solid fa-bars"></i> -->
+              <svg viewBox="0 0 12 10" class="hamburger" height="40px" width="40px">
+                <path d="M10,2 L2,2" class="bar-1"></path>
+                <path d="M2,5 L10,5" class="bar-2"></path>
+                <path d="M10,8 L2,8" class="bar-3"></path>
+            </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hd_right">
+          <div class="hdl_text">
+            <p>
+              pageX: <span id="x"></span>
+            </p>
+            <p>
+              pageY: <span id="y"></span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="landing_page">
+
+      <div class="layout_container_left">
+        <div class="wrap_lyt_ctn">
+          <div class="lytl_contain">
+            <div class="lytl_contain_svg">
+              <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8"><circle id="Ellipse_4" data-name="Ellipse 4" cx="4" cy="4" r="4" transform="translate(0 8) rotate(-90)" fill="#31bf5b"/><script xmlns=""/></svg>
+            </div>
+            <div class="lytl_contain_text">
+              <p>
+                <span>STATUS:</span>
+                <span>OPEN FOR</span>
+                <span>ANY WORK</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="layout_container_top">
+      </div>
+
+
+      <div class="layout_container_right">
+        <div class="wrap_lyt_ctn2">
+          <div class="lytl_contain2">
+            <div class="lytl_contain_svg2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16.057" height="12.3" viewBox="0 0 16.057 12.3"><path id="Union_1" data-name="Union 1" d="M-45.478-102.822a.44.44,0,0,1,0-.53c.135-.166,3.382-4.122,7.507-4.122s7.371,3.957,7.507,4.122a.44.44,0,0,1,0,.53c-.135.166-3.381,4.122-7.507,4.122S-45.343-102.656-45.478-102.822Zm4.125-.265a3.357,3.357,0,0,0,3.381,3.311,3.357,3.357,0,0,0,3.381-3.311,3.357,3.357,0,0,0-3.381-3.311A3.357,3.357,0,0,0-41.353-103.087Zm7.625,0a4.076,4.076,0,0,1-.947,2.616,13.514,13.514,0,0,0,3.3-2.616,13.514,13.514,0,0,0-3.3-2.616A4.076,4.076,0,0,1-33.727-103.087Zm-10.838,0a13.521,13.521,0,0,0,3.3,2.616,4.076,4.076,0,0,1-.947-2.616,4.076,4.076,0,0,1,.947-2.616A13.52,13.52,0,0,0-44.565-103.087Zm4.65,0a1.866,1.866,0,0,1,.169-.761,1.007,1.007,0,0,0,.811.414.953.953,0,0,0,.964-.944.926.926,0,0,0-.22-.6c.068,0,.152-.017.22-.017a1.925,1.925,0,0,1,1.944,1.9,1.925,1.925,0,0,1-1.944,1.9A1.925,1.925,0,0,1-39.915-103.087Zm8.251-2.947a.433.433,0,0,1-.084-.6L-30.718-108a.455.455,0,0,1,.609-.083.43.43,0,0,1,.085.6l-1.031,1.374a.48.48,0,0,1-.355.166A.511.511,0,0,1-31.665-106.033Zm-13.221-.083-1.031-1.374a.43.43,0,0,1,.084-.6.438.438,0,0,1,.609.083l1.031,1.374a.417.417,0,0,1-.085.6.462.462,0,0,1-.254.083A.428.428,0,0,1-44.886-106.116Zm3.01-1.97-.558-1.672a.421.421,0,0,1,.287-.53.433.433,0,0,1,.541.281l.558,1.672a.421.421,0,0,1-.287.53.381.381,0,0,1-.135.017A.447.447,0,0,1-41.877-108.086Zm7.27.265a.421.421,0,0,1-.287-.53l.558-1.672a.433.433,0,0,1,.541-.281.414.414,0,0,1,.287.53l-.558,1.672a.415.415,0,0,1-.406.3A.38.38,0,0,1-34.607-107.821Zm-3.8-1.043v-1.705a.443.443,0,0,1,.44-.43.443.443,0,0,1,.44.43v1.705a.443.443,0,0,1-.44.43A.443.443,0,0,1-38.411-108.864Z" transform="translate(46 111)"/><script xmlns=""/></svg>
+
+            </div>
+            <div class="lytl_contain_text2">
+              <a class="lytl_email" HREF="mailto:tonibusatta@gmail.com">
+                <span>tonibusatta@gmail.com</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="layout_container_bottom">
+
+      </div>
+    </section>
+    
+    <script src="/app.js"></script>
+
+</body>
+</html>
+
